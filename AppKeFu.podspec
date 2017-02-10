@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "AppKeFu-iOS"
+  s.name         = "AppKeFu"
   s.version      = "4.4.0"
   s.summary      = "iOS Helpdesk framework."
   s.description  = <<-DESC
