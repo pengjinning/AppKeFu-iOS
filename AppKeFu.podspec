@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/pengjinning/AppKeFu-iOS.git", :tag => "#{s.version}" }
   s.vendored_frameworks = "frameworks/cocoapods/AppKeFuFramework.framework"
+  s.resource     = "frameworks/cocoapods/AppKeFuResources.bundle"
   s.requires_arc = true
   s.xcconfig     = { "ENABLE_BITCODE" => "NO" }
 
