@@ -96,8 +96,9 @@
 //#define AppKeFuLocalizedString(key, comment) \
 //NSLocalizedStringFromTableInBundle((key), @"AppKeFu", [[NSBundle mainBundle] pathForResource:@"AppKeFuResources.bundle/Localizable" ofType:@"strings"], (comment))
 
+
 #define AppKeFuLocalizedString(key, comment) \
-NSLocalizedStringFromTableInBundle((key), @"AppKeFu", [NSBundle mainBundle], (comment))
+NSLocalizedStringFromTableInBundle((key), @"AppKeFu", [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"AppKeFuResources.bundle"]], (comment))
 
 
 #endif /* AppKeFuDefines_h */
