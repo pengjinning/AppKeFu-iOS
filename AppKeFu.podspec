@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AppKeFu"
-  s.version      = "4.4.7"
+  s.version      = "4.4.8"
   s.summary      = "iOS Helpdesk framework."
   s.description  = <<-DESC
                   Online chat Lib for ios, Helpdesk system
