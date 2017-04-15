@@ -93,10 +93,10 @@
 #define APPKEFU_UPLOAD_VOICEURL                     @"https://upload.appkefu.com/AppKeFu/uploadoss/uploadiOSVoice.php"
 
 
-//#define MYLibraryLocalizedString(key, comment) \
+//#define AppKeFuLocalizedString(key, comment) \
 //NSLocalizedStringFromTableInBundle((key), @"AppKeFu", [[NSBundle mainBundle] pathForResource:@"AppKeFuResources.bundle/Localizable" ofType:@"strings"], (comment))
 
-#define MYLibraryLocalizedString(key, comment) \
+#define AppKeFuLocalizedString(key, comment) \
 NSLocalizedStringFromTableInBundle((key), @"AppKeFu", [NSBundle mainBundle], (comment))
 
 
